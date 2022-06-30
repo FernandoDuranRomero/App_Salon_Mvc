@@ -47,7 +47,7 @@ class Email {
 
         $contenido .= "<p> <strong>Hola " . $this->nombre . " </strong> Has creado tu cuenta en AppSalon 
         Solo debes confirmarla presionando el siguiente enlace</p>";
-        $contenido .= "<p> Presiona aqui: <a href='http://localhost:3000/confirmar-cuenta?token=" . 
+        $contenido .= "<p> Presiona aqui: <a href='https://stark-coast-24034.herokuapp.com/confirmar-cuenta?token=" . 
         $this->token . "'>Confirmar Cuenta</a> </p>";
         $contenido .= "<p>Si tu no solicitaste esta cuenta, puedes ignorar el mensaje</p>";
 
